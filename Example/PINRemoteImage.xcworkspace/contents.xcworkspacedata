@@ -4,7 +4,4 @@
    <FileRef
       location = "group:PINRemoteImage.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>

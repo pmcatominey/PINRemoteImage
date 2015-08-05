@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*.{h,m}'
+  s.source_files = 'PINRemoteImage/**/*.{h,m}'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'PINRemoteImage/**/*.h'
   s.frameworks = 'UIKit', 'ImageIO', 'CoreImage'
   s.dependency 'FLAnimatedImage', '>= 1.0'
   s.dependency 'PINCache', '>=2.0'
